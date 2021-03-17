@@ -476,4 +476,25 @@ section {
 .footer .footer__nav .navigation .sosials .telegram {
   background: url("../assets/Telegram.svg") no-repeat center/cover;
   background-size: contain;
+}
+
+.to_top {
+  background: rgba(255, 255, 255, 0.164);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.295);
+  color: #F7F7F7;
+  transition: 0.5s;
+}
+.to_top:hover {
+  transform: scale(1.2);
+  color: #CD6326;
 }/*# sourceMappingURL=style.css.map */
